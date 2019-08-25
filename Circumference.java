@@ -1,4 +1,6 @@
-import java.util.Scanner;
+ /**
+  *@author: Veronika Ferrucci
+  **/
  import javax.swing.JOptionPane;
  //a class to determine circumference and area
   public class Circumference{
@@ -9,9 +11,6 @@ import java.util.Scanner;
   radius=Double.parseDouble(JOptionPane.showInputDialog(null,"Enter radius"));
 
  circumference=2*PI*radius;
-
- System.out.println("Radius: "+radius+
- " Circumference: " +circumference);
 
  area=PI*radius*radius;
  JOptionPane.showMessageDialog(null,"The circumference is " +circumference+".\n"+
